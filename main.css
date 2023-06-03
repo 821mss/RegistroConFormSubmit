@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-image: url(FONDO.png);
+    background-size: cover;
+}
+.contenedor_flex{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 400px;
+    background-color: #24303c;
+    border-radius: 10px;
+    box-shadow: -2px -1px 23px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 23px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 23px 8px rgba(0,0,0,0.75);
+
+}
+.datos_flexibles{
+    width: 80%;
+    height: 35px;
+    background-color: #24303c;
+    color: white;
+    border-radius: 4px;
+    border: solid 2px #1f53c5;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+form p{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+form a{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.boton input{
+    background-color: rgb(39, 125, 223);
+    width: 350px;
+    height: 45px;
+    margin-bottom: 25px;
+}
